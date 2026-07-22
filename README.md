@@ -19,6 +19,7 @@ warehouse_world/
 ├── package.xml
 └── README.md
 ```
+---
 
 ## Build the Package
 
@@ -27,15 +28,7 @@ cd ~/workspaces/turtlebot_ws
 colcon build --packages-select warehouse_world
 source install/setup.bash
 ```
-
-```bash
-colcon build --packages-select warehouse_world
-```
-
-```bash
-source install/setup.bash
-```
-
+---
 
 ## Test the Warehouse World from the UI
 
